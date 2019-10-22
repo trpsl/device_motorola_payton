@@ -1,5 +1,5 @@
 #
-# vendor props for payton
+# props for payton
 #
 
 # Audio
@@ -19,6 +19,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # NavBar
 PRODUCT_PROPERTY_OVERRIDES += \
     qemu.hw.mainkeys=0
+
+# Radio
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
