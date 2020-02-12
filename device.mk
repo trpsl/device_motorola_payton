@@ -20,6 +20,9 @@ $(call inherit-product-if-exists, vendor/motorola/payton/payton-vendor.mk)
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# GCam
+$(call inherit-product-if-exists, packages/apps/GoogleCamera/gcam.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
