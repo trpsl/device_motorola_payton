@@ -456,7 +456,7 @@ etc/permissions/com.motorola.motosignature.xml
 framework/com.motorola.motosignature.jar
 
 # Radio
-product/framework/qti-telephony-common.jar|1ea7ad0dc92185239d6524473ee574f1cf2d68e6
+product/framework/qti-telephony-common.jar|96154b2576114dd566bbc99a2d9af612de8849df
 
 # IMS
 -product/priv-app/ims/ims.apk|75854565f032706bd2c91bef682f1ab71a1db870
