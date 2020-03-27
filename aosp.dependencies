@@ -19,8 +19,8 @@
   },
   {
     "remote":      "github",
-    "repository":  "trpsl/packages_apps_GoogleCamera",
-    "target_path": "packages/apps/GoogleCamera",
+    "repository":  "trpsl/packages_apps_MotoCamera2",
+    "target_path": "packages/apps/MotoCamera2",
     "branch":      "ten"
   }
 ]
