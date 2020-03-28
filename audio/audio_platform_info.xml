@@ -54,8 +54,6 @@
 	<usecase name="USECASE_AUDIO_PLAYBACK_OFFLOAD" type="out" id="8" />
 	<usecase name="USECASE_AUDIO_DSM_FEEDBACK" type="in" id="57" />
 	<usecase name="USECASE_AUDIO_ECHO_REF" type="in" id="-1" />
-	<usecase name="USECASE_MOTVR_COMMAND" type="in" id="41" />
-	<usecase name="USECASE_MOTVR_TRACE" type="in" id="42" />
 	<usecase name="USECASE_ADSPD_DSP1_TEXT" type="in" id="45" />
 	<usecase name="USECASE_ADSPD_DSP2_TEXT" type="in" id="43" />
 	<usecase name="USECASE_ADSPD_DSP3_TEXT" type="in" id="44" />
