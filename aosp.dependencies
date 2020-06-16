@@ -22,5 +22,17 @@
     "repository":  "trpsl/packages_apps_GoogleCamera",
     "target_path": "packages/apps/GoogleCamera",
     "branch":      "ten"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_external_bson",
+    "target_path": "external/bson",
+    "branch":      "lineage-17.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_system_qcom",
+    "target_path": "system/qcom",
+    "branch":      "lineage-17.1"
   }
 ]
