@@ -14,11 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.fluence.speaker=true \
-    persist.vendor.audio.fluence.voicecall=true \
-    vendor.voice.path.for.pcm.voip=false
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    use.voice.path.for.pcm.voip=false
+    persist.vendor.audio.fluence.voicecall=true
 
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
