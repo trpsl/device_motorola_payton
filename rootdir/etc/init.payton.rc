@@ -29,6 +29,17 @@ on post-fs
     symlink /dev/block/bootdevice/by-name/oem_b /dev/block/bootdevice/by-name/vendor_b
     symlink /dev/block/bootdevice/by-name/oem_a /dev/block/bootdevice/by-name/vendor_a
 
+   # Widevine firmware
+    mount none /vendor/firmware/widevine.b00 /vendor/firmware_mnt/image/widevine.b00 bind
+    mount none /vendor/firmware/widevine.b01 /vendor/firmware_mnt/image/widevine.b01 bind
+    mount none /vendor/firmware/widevine.b02 /vendor/firmware_mnt/image/widevine.b02 bind
+    mount none /vendor/firmware/widevine.b03 /vendor/firmware_mnt/image/widevine.b03 bind
+    mount none /vendor/firmware/widevine.b04 /vendor/firmware_mnt/image/widevine.b04 bind
+    mount none /vendor/firmware/widevine.b05 /vendor/firmware_mnt/image/widevine.b05 bind
+    mount none /vendor/firmware/widevine.b06 /vendor/firmware_mnt/image/widevine.b06 bind
+    mount none /vendor/firmware/widevine.b07 /vendor/firmware_mnt/image/widevine.b07 bind
+    mount none /vendor/firmware/widevine.mdt /vendor/firmware_mnt/image/widevine.mdt bind
+
 on boot
     chown system system /sys/homebutton/enable
     chown system system /sys/homebutton/enable_off
