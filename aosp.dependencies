@@ -11,6 +11,12 @@
     "target_path": "kernel/motorola/msm8998",
     "branch":      "ten"
   },
+  { 
+    "repository":  "trpsl/packages_apps_googlecamera",
+    "target_path": "packages/apps/GoogleCamera",
+    "branch":      "payton",
+    "remote":      "bitbucket"
+  },
   {
     "remote":      "pixel-devices-bitbucket",
     "repository":  "vendor_motorola_payton",
