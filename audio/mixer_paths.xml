@@ -1016,6 +1016,10 @@
 		<path name="voice-dmic-ef" />
 	</path>
 
+	<path name="handset-stereo-dmic-ef">
+		<path name="speaker-dmic-endfire" />
+	</path>
+
 	<path name="camcorder-mic-bf">
 		<path name="AOV" />
 		<ctl name="SLIM_0_TX Channels" value="Two" />
@@ -1023,6 +1027,10 @@
 		<ctl name="SLIMTX2 Input 1" value="ISRC2DEC4" />
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
+	</path>
+
+	<path name="speaker-stereo-dmic-ef">
+		<path name="camcorder-mic-bf" />
 	</path>
 
 	<path name="three-mic">
